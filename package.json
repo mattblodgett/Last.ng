@@ -1,0 +1,21 @@
+{
+  "name": "cult",
+  "version": "0.0.1",
+  "description": "Solving information problems for music obsessives.",
+  "main": "web.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node-static": "~0.6.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Matt Blodgett",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "d3338be934c52915989a58f826d9eda8bf5d1859"
+}
