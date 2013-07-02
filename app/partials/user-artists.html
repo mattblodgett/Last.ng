@@ -1,0 +1,9 @@
+<p>Username: {{username}}</p>
+
+<div>
+	<ol>
+		<li ng-repeat="artist in data">
+			<a href="#/artist/{{artist.name}}/albums">{{artist.name}}</a>
+		</li>
+	</ol>
+</div>
