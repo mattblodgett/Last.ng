@@ -1,7 +1,7 @@
 {
-  "name": "cult",
+  "name": "lastng",
   "version": "0.0.1",
-  "description": "Solving information problems for music obsessives.",
+  "description": "Single page AngularJS application for browsing Last.fm",
   "main": "web.js",
   "directories": {
     "test": "test"
