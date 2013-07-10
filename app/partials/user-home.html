@@ -1,0 +1,22 @@
+<h2>{{username}}</h2>
+
+<div>
+	<h3>Recent Tracks</h3>
+	<ol>
+		<li ng-repeat="track in recentTracks">{{track.artist}} - {{track.song}}</li>
+	</ol>
+</div>
+
+<div>
+	<h3>Top Artists</h3>
+	<ol>
+		<li ng-repeat="artist in artists">{{artist.name}} ({{artist.plays}})</li>
+	</ol>
+</div>
+
+<div>
+	<h3>Top Tracks</h3>
+	<ol>
+		<li ng-repeat="track in topTracks">{{track.artist}} - {{track.song}} ({{track.plays}})</li>
+	</ol>
+</div>
